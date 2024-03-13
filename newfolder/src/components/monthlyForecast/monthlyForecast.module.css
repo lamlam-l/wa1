@@ -1,0 +1,81 @@
+.monthlyForecast {
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.title i {
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.chartContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.chart {
+    width: 130px;
+    height: 130px;
+    border-radius: 9999px;
+    background: conic-gradient(#fcc560, #eca92d 200deg, #2e8dfc 200deg, #439fff);
+    position: relative;
+    display: grid;
+    place-content: center;
+    margin-top: 16px;
+}
+
+.chart::after {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border-radius: 9999px;
+    background-color: #99AFC5;
+}
+
+.month {
+    z-index: 1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.forecast {
+    margin-top: 16px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;
+}
+
+.factor {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.sunnyNumber {
+    font-size: 14px;
+    color: #ffc04b;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.rainSnowNumber {
+    font-size: 14px;
+    color: #4a92e8;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.temperatureNumber {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 4px;
+}

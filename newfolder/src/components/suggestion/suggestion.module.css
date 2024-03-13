@@ -1,0 +1,75 @@
+.suggestion {
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.suggestionList {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.suggestionItem {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 8px;
+    border-radius: 8px;
+    column-gap: 8px;
+}
+
+.iconWrapper {
+    grid-row: 1 / 3;
+    align-self: center;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+}
+
+.icon {
+    font-size: 14px;
+}
+
+.name {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.text {
+    font-size: 14px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.seeMore {
+    display: block;
+    padding: 8px;
+    width: 100%;
+    border-radius: 9999px;
+    border: 0 !important;
+    outline: 0 !important;
+    background-color: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    color: white;
+    margin: auto;
+    margin-top: 16px;
+    transition: all ease 300ms;
+}
+
+.seeMore:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.seeMore:active {
+    background-color: rgba(255, 255, 255, 0.3);
+}

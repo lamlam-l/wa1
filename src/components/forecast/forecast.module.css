@@ -1,0 +1,90 @@
+.forecast {
+    position: relative;
+}
+
+.forecast_swiperItem {
+    cursor: e-resize;
+    padding: 12px 24px;
+    color: var(--white-color);
+    height: 115px;
+    container-type: inline-size;
+}
+
+.contentContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    gap: 4px;
+}
+
+.today {
+    font-weight: bold;
+}
+
+.icon {
+    width: 60px;
+    margin-right: 8px;
+}
+
+.temperature {
+}
+
+.symbol {
+    display: none;
+}
+
+@container (width >= 280px) {
+    .temperature {
+        display: flex;
+        gap: 4px;
+    }
+
+    .symbol {
+        display: block;
+    }
+}
+
+.temperature :first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.temperature :last-child {
+    font-size: 20px;
+}
+
+.info {
+    margin-left: auto;
+}
+
+.info p {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.info i {
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border: 0 !important;
+    outline: 0 !important;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.navButton_left {
+    left: 4px;
+}
+
+.navButton_right {
+    right: 4px;
+}

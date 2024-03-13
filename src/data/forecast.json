@@ -1,0 +1,82 @@
+[
+  {
+    "date": "2024-03-11",
+    "weather": "cloudy",
+    "maxTemperature": 63,
+    "minTemperature": 58,
+    "text": "Mostly cloudy",
+    "rainingChance": 30
+  },
+  {
+    "date": "2024-03-12",
+    "weather": "raining",
+    "maxTemperature": 59,
+    "minTemperature": 55,
+    "text": "Heavy rain",
+    "rainingChance": 70
+  },
+  {
+    "date": "2024-03-13",
+    "weather": "sunny",
+    "maxTemperature": 68,
+    "minTemperature": 62,
+    "text": "Clear skies",
+    "rainingChance": 10
+  },
+  {
+    "date": "2024-03-14",
+    "weather": "cloudy",
+    "maxTemperature": 64,
+    "minTemperature": 59,
+    "text": "Partly cloudy",
+    "rainingChance": 40
+  },
+  {
+    "date": "2024-03-15",
+    "weather": "raining",
+    "maxTemperature": 60,
+    "minTemperature": 56,
+    "text": "Light rain showers",
+    "rainingChance": 50
+  },
+  {
+    "date": "2024-03-16",
+    "weather": "sunny",
+    "maxTemperature": 70,
+    "minTemperature": 64,
+    "text": "sunny day",
+    "rainingChance": 5
+  },
+  {
+    "date": "2024-03-17",
+    "weather": "cloudy",
+    "maxTemperature": 65,
+    "minTemperature": 60,
+    "text": "Overcast",
+    "rainingChance": 20
+  },
+  {
+    "date": "2024-03-18",
+    "weather": "raining",
+    "maxTemperature": 58,
+    "minTemperature": 54,
+    "text": "Thunderstorms likely",
+    "rainingChance": 80
+  },
+  {
+    "date": "2024-03-19",
+    "weather": "sunny",
+    "maxTemperature": 72,
+    "minTemperature": 66,
+    "text": "Warm and clear",
+    "rainingChance": 5
+  },
+  {
+    "date": "2024-03-20",
+    "weather": "cloudy",
+    "maxTemperature": 66,
+    "minTemperature": 61,
+    "text": "Mostly cloudy",
+    "rainingChance": 30
+  }
+]

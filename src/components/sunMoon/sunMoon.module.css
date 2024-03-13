@@ -1,0 +1,63 @@
+.sunMoon {
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 24px;
+    gap: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 16px;
+    margin-bottom: 4px;
+}
+
+.text {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.time {
+    font-size: 14px;
+}
+
+.chart {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    max-width: 160px;
+}
+
+.duration {
+    text-align: center;
+    padding-top: 44px;
+    font-weight: bold;
+}
+
+.bar {
+    display: block;
+    position: absolute;
+    top: 0;
+    transform: rotate(140deg);
+    width: 100%;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}

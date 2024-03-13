@@ -1,0 +1,130 @@
+.general {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 16px;
+    color: white;
+}
+
+.first {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.current-weather {
+    font-weight: bold;
+}
+
+.time {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.report {
+    display: flex;
+    gap: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+}
+
+.report:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.report:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.report i {
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+}
+
+.weather-icon {
+    width: 90px;
+}
+
+.temperature {
+    display: flex;
+    align-items: start;
+    margin-right: 16px;
+}
+
+.temperature__temp {
+    font-size: 64px;
+}
+
+.temperature__sup {
+    font-size: 20px;
+    margin-left: 4px;
+    position: relative;
+    top: 8px;
+}
+
+.temperature__unit {
+    font-size: 32px;
+    position: relative;
+    top: 8px;
+}
+
+.predict__condition {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.predict__text sup {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.third {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    row-gap: 8px;
+}
+
+.info {
+}
+
+.info__text {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.info_icon {
+    font-size: 10px;
+    margin-left: 4px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.air_quantity::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    margin-right: 4px;
+    border-radius: 6px;
+    background-color: red;
+}
+
+.wind_icon {
+    display: inline-block;
+    width: 12px;
+    margin-left: 4px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 2px;
+}
